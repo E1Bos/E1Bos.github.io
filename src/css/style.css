@@ -433,12 +433,11 @@ footer {
     position: fixed;
     left: 50%;
     border-left: 2px solid white;
-    height: 75vh;
+    height: 70vh;
 }
 
 .pc-list {
     position: fixed;
-    font-size: 25px;
     font-weight: 300;
     max-width: 25%;
     text-align: center;
@@ -462,8 +461,17 @@ footer {
     text-shadow: #EE3B3A 0px 0px 3px;
 }
 
+@media (min-width: 500px) {
+    .pc-list {
+        font-size: 24px;
+    }
+}
 
-
+@media (min-width: 1500px) {
+    .pc-list {
+        font-size: 22px;
+    }
+}
 
 
 /* Ignore Tag */
